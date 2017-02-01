@@ -1,0 +1,135 @@
+/*		Need to modify the form/buttons,
+		Currently showing blue hints
+*/
+
+* {
+	font-family: Century Gothic, segoe ui, tahoma, helvetica;
+}
+
+body {
+	background-color: #e84922;
+	height: 100vh;
+}
+
+#whitelogo {
+	text-align: center;
+	padding-top: 10px;
+
+}
+
+#naver {
+	background-color: #dbd5d2;
+	color: black;
+}
+
+#naver a{
+	color: black;
+}
+
+#title {
+height: 50px;
+width: 105;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 5px;
+
+}
+
+#createaccount {
+	text-align: center;
+	color: white;
+}
+
+form {
+   max-width: 600px;
+   text-align: center;
+   margin: 20px auto;
+   color: black;
+   
+   
+}
+
+#Name {
+	color: white !important;
+	font-size: 18px;
+	
+}
+
+#buttonsignup {
+	width: 50%;
+}
+
+#havent {
+	color: white;
+	text-align: center;
+}
+
+#havent a {
+	color: lightgrey;
+}
+
+
+  input, textarea {
+     border:0; outline:0;
+     padding: 1em;
+     @include border-radius(100px);
+     display: block;
+     width: 100%;
+     margin-top: 1em;
+    
+    
+    &:focus {
+       @include box-shadow(0 0px 2px rgba($red, 1)!important);
+    }
+  }
+  
+  /*		
+  #input-submit {
+     color: black !important; 
+     background: $red;
+     cursor: pointer;
+	
+	 
+    
+    &:hover {
+       @include box-shadow(0 1px 1px 1px rgba(#aaa, 0.6)); 
+    }
+  }
+  */
+  textarea {
+      height: 126px;
+  }
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+   
+}
+
+@media screen and (max-width: 400px) {
+
+   
+   
+}
+
+
+/*			*/
+
+#toprow {
+	margin-top: 30px;
+	padding-left: 20px;
+}
+
+
+#businesslogo {
+	height: 100px;
+	width: 100px;
+	text-align: center;
+}
+
+#businesstitle {
+	font-size: 60px;
+}
+
