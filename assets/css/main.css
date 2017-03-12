@@ -6,8 +6,100 @@
 	font-family: Century Gothic, segoe ui, tahoma, helvetica;
 }
 
+#businessimages {
+    height: auto ;
+    width: 92%;
+    display: block;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+#topimage {
+    padding-top: 200px;
+    background: url(images/stock13.jpg) no-repeat;
+    background-size: cover;
+}
+#topimageRS {
+    padding-top: 200px;
+    background: url(images/stock12.jpg) no-repeat;
+    background-size: cover;
+}
+#topimageAR {
+    padding-top: 200px;
+    background: url(images/stock14.jpg) no-repeat;
+    background-size: cover;
+}
+
+#logos {
+    height: 15%;
+    width: 15%;
+}
+
+#creativeresult {
+    background: url(images/stock11.jpg) no-repeat;
+    background-size: cover;
+}
+#archantresult {
+    background: url(images/stock12.jpg) no-repeat;
+    background-size: cover;
+}
+#bigdogresult {
+    background: url(images/stock13.jpg) no-repeat;
+    background-size: cover;
+}
+#rocksolidresult {
+    background: url(images/stock14.jpg) no-repeat;
+    background-size: cover;
+}
+
+#resulttitle {
+    padding-top: 150px;
+}
+
+#resulttitle h {
+    color: white;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+#resulttitle2 h {
+    color: white;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+#resultp {
+    color: white;
+    font-size: 15px;
+}
+
+#businessp h {
+    color: white;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+#businessp p {
+    color: white;
+    font-size: 13px;
+}
+
+#bodylogin {
+    background: url(images/stock8.jpg) no-repeat center;
+    background-size: cover;
+	height: 100vh;
+}
+
+#bodyregister {
+    background: url(images/stock9.jpg) no-repeat center center;
+    background-size: cover;
+	height: 100vh;
+}
+
 body {
-	background-color: #e84922;
+	/* background-color: #e84922; */
+    background-color: black;
 	height: 100vh;
 }
 
@@ -18,7 +110,7 @@ body {
 }
 
 #naver {
-	background-color: #dbd5d2;
+	background-color: #72cbff /*#dbd5d2*/;
 	color: black;
 }
 
@@ -103,10 +195,29 @@ form {
 
 
 
-@media screen and (max-width: 800px) {
+
+@media screen and (max-width: 700px) {
+
+	#somethingterrible {
+		display: none;
+	}
 
    
 }
+
+
+@media screen and (max-width: 600px) {
+ 
+    #businessimages {
+        width: 100%;
+    }
+    
+    #map {
+        width: 100%;
+    }
+    
+}
+
 
 @media screen and (max-width: 400px) {
 
@@ -129,9 +240,7 @@ form {
 	text-align: center;
 }
 
-
-#uploadimg {
-    padding-top: 14px;
-    
+#businesstitle {
+	font-size: 60px;
 }
 
