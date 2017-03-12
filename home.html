@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	
+	<title>CCN Apprenticeships Home</title>
+	
+	  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+	  <link type="text/css" rel="stylesheet" href="css/Basic.css"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	  <link rel="shortcut icon" type="image/png" href="images/ccnlogo.png"/>
+	  <link rel="shortcut icon" href="../favicon.ico">
+	  <title> Home </title>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+		  // Add smooth scrolling to all links
+		  $("a").on('click', function(event) {
+
+			// Make sure this.hash has a value before overriding default behavior
+			if (this.hash !== "") {
+			  // Prevent default anchor click behavior
+			  event.preventDefault();
+
+			  // Store hash
+			  var hash = this.hash;
+
+			  // Using jQuery's animate() method to add smooth page scroll
+			  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+			  $('html, body').animate({
+				scrollTop: $(hash).offset().top
+			  }, 800, function(){
+		   
+				// Add hash (#) to URL when done scrolling (default click behavior)
+				window.location.hash = hash;
+			  });
+			} // End if
+		  });
+		});
+		</script>	  
+	  
+	  
+	</head>
+
+		<body>
+		
+
+			
+				<nav>
+					<div id="naver" class="nav-wrapper">
+					  <a href="basic.html" class="brand-logo"><img src="images/ccnlogo6.png"></a>
+					  <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+					  <ul class="right hide-on-med-and-down">
+					  <li><a href="resultCD.html">Creative Digital media</li></a>
+					  <li><a href="resultDM.html">Digital marketing</li></a>
+					  <li><a href="resultSM.html">Social media</li></a>
+					  <li><a href="resultDL.html">Digital learning design </li></a>
+					  <li> | </li>
+        <li ><a href="login.html">Login</a></li>
+		<li> | </li>
+		<li ><a href="register.html">Register</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li ><a href="login.html">Login</a></li>
+        <li ><a href="register.html">Register</a></li>
+					  <li><a href="resultCD.html">Creative Digital media</li></a>
+					  <li><a href="resultDM.html">Digital marketing</li></a>
+					  <li><a href="resultSM.html">Social media</li></a>
+					  <li><a href="resultDL.html">Digital learning design </li></a>
+        </ul>
+					</div>
+			  </nav>
+
+			  <div class="row"  id="jumbo">
+			     <div class="col s12" id="jumbo2">
+				     <img src="images/ccnlogo5.png">
+				 </div> 
+				 <div class="col s12">
+                     <h1 id="digitalt" class="col s12"> DIGITAL </h1>
+				     <h1 id="apprenticeshipst" class="col s12"> APPRENTICESHIPS </h1>
+                     <p id="tagline"> BROWSE FROM OUR FOUR CATEGORIES </br>  OF DIGITAL APPRENTICESHIPS </p>
+				 </div>
+                 <div class="container">
+				 <div class="col s12" id="button1">
+				     <a href="resultCD.html" id="buttons" class="waves-effect waves-light btn">Creative Digital Media</a>
+				 </div>
+				 <div class="col s12" id="button2">
+				     <a href="resultDM.html" id="buttons" class="waves-effect waves-light btn">Digital Marketing</a>
+				 </div>
+				 <div class="col s12" id="button3">
+				     <a href="resultSM.html" id="buttons" class="waves-effect waves-light btn">Social Media</a>
+				 </div>
+				 <div class="col s12" id="button4">
+				     <a href="resultDL.html" id="buttons" class="waves-effect waves-light btn">Digital Learning Design</a>
+				 </div> 
+				 </div>
+				 <div class="col s12">
+				     <h6>New to Apprenticeships? find out more</h6>
+				 </div>
+			  <div class="col s12" id="jumbo3">
+			     <a href="#cards"><img src="images/arrow2.png"></a>
+			   </div>
+			</div>
+			
+			<div class="row" id="cards">
+			<div class="col s12 l4" id="model">
+                 <div class="hovereffect">
+                     <img id="stockcard" class="img-responsive" src="images/cardimg/stock2.jpg" alt="">
+                 <div class="overlay">
+                   <h2>What is an Apprenticeship?</h2>
+				    <p> 
+                    <a class="waves-effect waves-light btn" href="#modal1">More</a>
+				    </p> 
+                 </div>
+                 </div>
+            </div>
+			<div class="col s12 l4" id="model">
+                 <div class="hovereffect">
+                     <img id="stockcard" class="img-responsive" src="images/cardimg/stock3.jpg" alt="">
+                 <div class="overlay">
+                   <h2>I am looking for an Apprenticeship and don’t have an employer</h2>
+				    <p> 
+                    <a class="waves-effect waves-light btn" href="#modal2">More</a>
+				    </p> 
+                 </div>
+                 </div>
+            </div>
+			<div class="col s12 l4" id="model">
+                 <div class="hovereffect">
+                     <img id="stockcard" class="img-responsive" src="images/cardimg/stock4.jpg" alt="">
+                 <div class="overlay">
+                   <h2>What are the benefits?</h2>
+				    <p> 
+                    <a class="waves-effect waves-light btn" href="#modal3">More</a>
+				    </p> 
+                 </div>
+                 </div>
+            </div>
+			<div class="col s12 l4" id="model">
+                 <div class="hovereffect">
+                     <img id="stockcard" class="img-responsive" src="images/cardimg/stock5.jpg" alt="">
+                 <div class="overlay">
+                   <h2>I am looking for an Apprenticeship and I have an employer</h2>
+				    <p> 
+                    <a class="waves-effect waves-light btn" href="#modal4">More</a>
+				    </p> 
+                 </div>
+                 </div>
+            </div>
+			<div class="col s12 l4" id="model">
+                 <div class="hovereffect">
+                     <img id="stockcard" class="img-responsive" src="images/cardimg/stock6.jpg" alt="">
+                 <div class="overlay">
+                   <h2>How do they compare?</h2>
+				    <p> 
+                    <a class="waves-effect waves-light btn" href="#modal5">More</a>
+				    </p> 
+                 </div>
+                 </div>
+            </div>
+			<div class="col s12 l4" id="model">
+                 <div class="hovereffect">
+                     <img id="stockcard" class="img-responsive" src="images/cardimg/stock7.jpg" alt="">
+                 <div class="overlay">
+                   <h2>I am a parent looking for information about Apprenticeships</h2>
+				    <p> 
+                    <a class="waves-effect waves-light btn" href="#modal6">More</a>
+				    </p> 
+                 </div>
+                 </div>
+            </div>				
+			</div>
+
+			  <div id="modal1" class="modal">
+				<div class="modal-content">
+				  <h4>What is an Apprenticeship?</h4>
+				  <p>An Apprenticeship means you work and get paid while you learn an industry skill.  It’s a real job with real training, meaning you gain hands-on work experience as well as a formal qualification.  As an apprentice you learn ‘on-the-job’, which may mean that you go to college on day release or undertake all of your training at work – it varies depending on your role and your employer.</p>
+                  <p>There are three levels of Apprenticeship in total and the level of Apprenticeship you do will depend on previous qualifications and experience and the type of industry you will work in.</p>
+				<p><a href="https://www.ccn.ac.uk/apprenticeship-page/what-apprenticeship" target="_blank"> More Information </a> </p>
+				</div>
+				<div class="modal-footer">
+				</div>
+			  </div>
+			  	<div id="modal2" class="modal">
+				<div class="modal-content">
+				  <h4>I am looking for an Apprenticeship and don’t have an employer</h4>
+				  <p>Apprenticeships are the ideal way to develop knowledge and skills in the workplace whilst undertaking a programme of study.</p>
+                  <p>Apprenticeships mean you can further your career and earn a wage at the same time. You will gain a nationally recognised qualification whilst learning industry specific skills in the work place. Apprenticeships are increasingly recognised in industry as the standard for work-based learning.</p>
+				<p><a href="https://www.ccn.ac.uk/apprenticeship-page/i-am-looking-apprenticeship-and-don-t-have-employer" target="_blank"> More Information </a> </p>
+				</div>
+				<div class="modal-footer">
+				</div>
+			  </div>
+			  	<div id="modal3" class="modal">
+				<div class="modal-content">
+				  <h4>What are the benefits?</h4>
+				  <ul>
+                <li>Apprenticeships give vital ‘hands-on’ practical experience to young people looking to pursue a career in a specific industry.</li>
+                <li>Apprentices are employed and earn a salary. This means no student debt and no fees to pay.</li>
+                <li>The minimum wage for apprentices is £3.30 per hour. Many employers prefer to pay more however, and research shows that the average salary is approximately £170 per week*.</li>
+                <li>Apprentices are provided with the standard benefits that come with most other jobs, such as paid annual leave and bank holidays (unless the role specifically requires work on these days).</li>
+                <li>Apprenticeships are nationally-recognised qualifications that are valued by employers and universities.</li>
+                  </ul>
+				<p><a href="https://www.ccn.ac.uk/apprenticeship-page/what-are-benefits" target="_blank"> More Information </a> </p>
+				</div>
+				<div class="modal-footer">
+				</div>
+			  </div>
+			   <div id="modal4" class="modal">
+				<div class="modal-content">
+				  <h4>I am looking for an Apprenticeship and I have an employer</h4>
+				  <p>If you’re working full-time but want to develop your skills and knowledge alongside your job, then an Apprenticeship could be just right for you.  An Apprenticeship is a training programme that offers you the best of both worlds – giving you the chance to earn while you learn and develop your career.</p>
+                    <p>They’re designed to give you the job specific skills you need to work in industry, working alongside experienced staff to achieve sought-after qualifications and helping you to progress in your job – all while earning a wage.</p>
+<p><a href="https://www.ccn.ac.uk/apprenticeship-page/i-am-looking-apprenticeship-and-i-have-employer" target="_blank"> More Information </a> </p>
+				</div>
+				<div class="modal-footer">
+				</div>
+			  </div>
+			  	<div id="modal5" class="modal">
+				<div class="modal-content">
+				  <h4>How do they compare?</h4>
+				  <p>It’s important to know how Apprenticeships compare with other qualifications that are available to your child. The table below shows how the Apprenticeships we offer fit in with other qualifications.</p>
+				<p><a href="https://www.ccn.ac.uk/apprenticeship-page/how-do-they-compare" target="_blank"> More Information </a> </p>
+				</div>
+				<div class="modal-footer">
+				</div>
+			  </div>
+			  <div id="modal6" class="modal">
+				<div class="modal-content">
+				  <h4>I am a parent looking for information about Apprenticeships</h4>
+				    <p>It’s important that the choices your child makes once they leave school are the right ones.  As the key decision maker in your child’s life, the best way is to make sure they’re well informed about all the options open to them.  One of these options is an Apprenticeship.</p>
+                    <p>Put simply, an Apprenticeship is a job with training. An apprentice is employed in a specific job role but receives training to help them develop the specialist skills and knowledge required to perform their role to a high standard.</p>
+				<p><a href="https://www.ccn.ac.uk/apprenticeship-page/i-am-parent-looking-information-about-apprenticeships" target="_blank"> More Information </a> </p>
+				</div>
+				<div class="modal-footer">
+				</div>
+			  </div>
+  
+		<footer class="page-footer">
+            <div class="row">
+              <div class="col s6 m12">
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">City College Norwich, Ipswich Road, Norwich, NR2 2LJ </br> Principal: Corrienne Peasgood</a></li>
+                </ul>
+				</div>
+            </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2017 Copyright Text
+
+            </div>
+          </div>
+        </footer>
+			
+		</body>
+	
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.js"></script>
+	  <script type="text/javascript" src="js/init.js"></script>
+	  
+</html> 
