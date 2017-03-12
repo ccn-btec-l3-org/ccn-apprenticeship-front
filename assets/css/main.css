@@ -17,17 +17,17 @@
 
 #topimage {
     padding-top: 200px;
-    background: url(images/stock13.jpg) no-repeat;
+    background: url(assets/images/stock13.jpg) no-repeat;
     background-size: cover;
 }
 #topimageRS {
     padding-top: 200px;
-    background: url(images/stock12.jpg) no-repeat;
+    background: url(assets/images/stock12.jpg) no-repeat;
     background-size: cover;
 }
 #topimageAR {
     padding-top: 200px;
-    background: url(images/stock14.jpg) no-repeat;
+    background: url(assets/images/stock14.jpg) no-repeat;
     background-size: cover;
 }
 
@@ -37,19 +37,19 @@
 }
 
 #creativeresult {
-    background: url(images/stock11.jpg) no-repeat;
+    background: url(assets/images/stock11.jpg) no-repeat;
     background-size: cover;
 }
 #archantresult {
-    background: url(images/stock12.jpg) no-repeat;
+    background: url(assets/images/stock12.jpg) no-repeat;
     background-size: cover;
 }
 #bigdogresult {
-    background: url(images/stock13.jpg) no-repeat;
+    background: url(assets/images/stock13.jpg) no-repeat;
     background-size: cover;
 }
 #rocksolidresult {
-    background: url(images/stock14.jpg) no-repeat;
+    background: url(assets/images/stock14.jpg) no-repeat;
     background-size: cover;
 }
 
@@ -86,13 +86,13 @@
 }
 
 #bodylogin {
-    background: url(images/stock8.jpg) no-repeat center;
+    background: url(assets/images/stock8.jpg) no-repeat center;
     background-size: cover;
 	height: 100vh;
 }
 
 #bodyregister {
-    background: url(images/stock9.jpg) no-repeat center center;
+    background: url(assets/images/stock9.jpg) no-repeat center center;
     background-size: cover;
 	height: 100vh;
 }
@@ -110,7 +110,7 @@ body {
 }
 
 #naver {
-	background-color: #72cbff /*#dbd5d2*/;
+	background-color: /*#72cbff*/ #dbd5d2;
 	color: black;
 }
 
